@@ -1,0 +1,138 @@
+body {
+	background-color: black;
+	background-image: url("images/PO_BGv2.jpg");
+	background-size: 100%;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(720deg);
+		-webkit-transform: rotate(720deg);
+	}
+
+	to {
+		display: none;
+	}
+}
+
+#header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: auto;
+}
+
+#smile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	height: auto;
+}
+a {
+	display: contents;
+	width: 100%;
+	height: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	white-space: nowrap;
+	order: 2;
+}
+#playbutton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -22%;
+	width: 15%;
+	height: auto;
+}
+
+#ytplayer {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	border: 0;
+	box-shadow: 5px 5px 15px;
+}
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#video {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -10%;
+}
+
+#preorder {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	margin-top: 30%;
+}
+
+.merch-container {
+	display: flex;
+	padding-left: 1%;
+	padding-right: 1%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 3%;
+}
+.merch {
+	width: 50%;
+}
+.smerch {
+	width: 33.3%;
+}
+
+@media screen and (max-width: 480px) {
+	#header {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		height: auto;
+	}
+
+	#smile {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+		height: auto;
+	}
+
+	#playbutton {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -45%;
+		width: 30%;
+		height: auto;
+	}
+	#ytplayer {
+		width: 98%;
+		height: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 5px 5px 15px;
+	}
+}
