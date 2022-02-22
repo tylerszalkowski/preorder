@@ -40,6 +40,7 @@ a {
 	white-space: nowrap;
 	order: 2;
 }
+
 #playbutton {
 	display: block;
 	margin-left: auto;
@@ -84,7 +85,15 @@ a {
 	margin-right: auto;
 	margin-left: auto;
 	width: 75%;
-	margin-top: 30%;
+	margin-top: 10%;
+}
+
+#preorder:hover {
+	transform: scale(1.2);
+}
+
+.grow {
+	transition: all .2s ease-in-out;
 }
 
 .merch-container {
@@ -101,6 +110,28 @@ a {
 }
 .smerch {
 	width: 33.3%;
+}
+
+.fa-brands {
+	padding: 20px;
+	font-size: 3vw;
+	width: 5vw;
+	align-content: center;
+	color: white;
+}
+
+.footerWrap {
+	width: 100%;
+}
+.footer {
+	width: 50%;
+	margin: auto;
+}
+.footerContent {
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -134,5 +165,38 @@ a {
 		margin-left: auto;
 		margin-right: auto;
 		box-shadow: 5px 5px 15px;
+	}
+
+	#preorder {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		width: 75%;
+		margin-top: 20%;
+	}
+
+	.footerWrap {
+		width: 100%;
+	}
+
+	.footer {
+		width: 100%;
+		margin: auto;
+	}
+
+	.footerContent {
+		float: left;
+		width: 100%;
+		padding: 2vw 0;
+		margin-top: -3%;
+		text-align: center;
+	}
+
+	.fa-brands {
+		padding: 20px;
+		font-size: 5vw;
+		width: 4vw;
+		align-content: center;
+		color: white;
 	}
 }
