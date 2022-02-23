@@ -19,6 +19,8 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -2%;
+	margin-bottom: -2%;
 	width: 70%;
 	height: auto;
 }
@@ -89,7 +91,7 @@ a {
 	border-radius: 15px;
 	padding: 5px 5px;
 	width: 75%;
-	margin-top: 10%;
+	margin-top: 15%;
 }
 
 #preorder:hover {
@@ -138,6 +140,39 @@ a {
 	text-align: center;
 }
 
+#pn {
+	width: 15%;
+}
+
+#releasedate {
+	display: block;
+	width: 23%;
+	margin: auto;
+	color: #000;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+
+#streamnow {
+	display: block;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	color: #000;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	background-color: rgba(255, 255, 255, .5);
+	border: 3px #03031f solid;
+	border-radius: 15px;
+	padding: 15px 10px;
+	margin-bottom: -10%;
+}
+
+#streamnow:hover {
+	transform: scale(1.2);
+}
+
 @media screen and (max-width: 480px) {
 	#header {
 		display: block;
@@ -180,6 +215,22 @@ a {
 		border: 1px white solid;
 		background-color: rgba(0, 0, 0, .7);
 		border-radius: 5px;
+	}
+
+	#streamnow {
+		display: block;
+		width: 45%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15%;
+		color: #000;
+		-webkit-filter: invert(100%);
+		filter: invert(100%);
+		background-color: rgba(255, 255, 255, .5);
+		border: 1px #03031f solid;
+		border-radius: 5px;
+		padding: 10px 10px;
+		margin-bottom: -15%;
 	}
 
 	.footerWrap {
