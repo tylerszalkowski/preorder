@@ -149,8 +149,6 @@ a {
 	width: 23%;
 	margin: auto;
 	color: #000;
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
 }
 
 #streamnow {
